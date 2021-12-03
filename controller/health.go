@@ -3,8 +3,8 @@ package controller
 import (
 	"net/http"
 
+	"github.com/SamuelVasconc/go-webapp-sample/container"
 	"github.com/labstack/echo/v4"
-	"github.com/ybkuroki/go-webapp-sample/container"
 )
 
 // HealthController is a controller returns the current status of this application.

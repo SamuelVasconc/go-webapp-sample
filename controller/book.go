@@ -3,10 +3,10 @@ package controller
 import (
 	"net/http"
 
+	"github.com/SamuelVasconc/go-webapp-sample/container"
+	"github.com/SamuelVasconc/go-webapp-sample/model/dto"
+	"github.com/SamuelVasconc/go-webapp-sample/service"
 	"github.com/labstack/echo/v4"
-	"github.com/ybkuroki/go-webapp-sample/container"
-	"github.com/ybkuroki/go-webapp-sample/model/dto"
-	"github.com/ybkuroki/go-webapp-sample/service"
 )
 
 // BookController is a controller for managing books.

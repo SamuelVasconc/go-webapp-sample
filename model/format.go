@@ -3,7 +3,7 @@ package model
 import (
 	"encoding/json"
 
-	"github.com/ybkuroki/go-webapp-sample/repository"
+	"github.com/SamuelVasconc/go-webapp-sample/repository"
 )
 
 // Format defines struct of format data.

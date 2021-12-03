@@ -5,10 +5,10 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/SamuelVasconc/go-webapp-sample/model"
+	"github.com/SamuelVasconc/go-webapp-sample/test"
 	"github.com/labstack/echo/v4"
 	"github.com/stretchr/testify/assert"
-	"github.com/ybkuroki/go-webapp-sample/model"
-	"github.com/ybkuroki/go-webapp-sample/test"
 )
 
 func TestGetFormatList(t *testing.T) {

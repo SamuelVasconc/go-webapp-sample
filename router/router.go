@@ -3,14 +3,14 @@ package router
 import (
 	"net/http"
 
+	"github.com/SamuelVasconc/go-webapp-sample/config"
+	"github.com/SamuelVasconc/go-webapp-sample/container"
+	"github.com/SamuelVasconc/go-webapp-sample/controller"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
-	"github.com/ybkuroki/go-webapp-sample/config"
-	"github.com/ybkuroki/go-webapp-sample/container"
-	"github.com/ybkuroki/go-webapp-sample/controller"
 
+	_ "github.com/SamuelVasconc/go-webapp-sample/docs" // for using echo-swagger
 	echoSwagger "github.com/swaggo/echo-swagger"
-	_ "github.com/ybkuroki/go-webapp-sample/docs" // for using echo-swagger
 )
 
 // Init initialize the routing of this application.

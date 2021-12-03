@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ybkuroki/go-webapp-sample/config"
-	"github.com/ybkuroki/go-webapp-sample/logger"
+	"github.com/SamuelVasconc/go-webapp-sample/config"
+	"github.com/SamuelVasconc/go-webapp-sample/logger"
 	"gorm.io/driver/mysql"
 	"gorm.io/driver/postgres"
 	"gorm.io/driver/sqlite"

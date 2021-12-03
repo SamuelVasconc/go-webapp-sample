@@ -3,12 +3,12 @@ package controller
 import (
 	"net/http"
 
+	"github.com/SamuelVasconc/go-webapp-sample/container"
+	"github.com/SamuelVasconc/go-webapp-sample/model"
+	"github.com/SamuelVasconc/go-webapp-sample/model/dto"
+	"github.com/SamuelVasconc/go-webapp-sample/service"
+	"github.com/SamuelVasconc/go-webapp-sample/session"
 	"github.com/labstack/echo/v4"
-	"github.com/ybkuroki/go-webapp-sample/container"
-	"github.com/ybkuroki/go-webapp-sample/model"
-	"github.com/ybkuroki/go-webapp-sample/model/dto"
-	"github.com/ybkuroki/go-webapp-sample/service"
-	"github.com/ybkuroki/go-webapp-sample/session"
 )
 
 // AccountController is a controller for managing user account.

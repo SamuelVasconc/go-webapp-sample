@@ -1,17 +1,12 @@
 # go-webapp-sample
 
-[![license](https://img.shields.io/github/license/ybkuroki/go-webapp-sample?style=for-the-badge)](https://github.com/ybkuroki/go-webapp-sample/blob/master/LICENSE)
-[![report](https://goreportcard.com/badge/github.com/ybkuroki/go-webapp-sample?style=for-the-badge)](https://goreportcard.com/report/github.com/ybkuroki/go-webapp-sample)
-[![workflow](https://img.shields.io/github/workflow/status/ybkuroki/go-webapp-sample/check?label=check&style=for-the-badge&logo=github)](https://github.com/ybkuroki/go-webapp-sample/actions?query=workflow%3Acheck)
-[![release](https://img.shields.io/github/release/ybkuroki/go-webapp-sample?style=for-the-badge&logo=github)](https://github.com/ybkuroki/go-webapp-sample/releases)
-
 ## Preface
 This repository is the sample of web application using golang.
 This sample uses [Echo](https://echo.labstack.com/) as web application framework, [Gorm](https://gorm.io/) as OR mapper and [Zap logger](https://pkg.go.dev/go.uber.org/zap) as logger.
 This sample application provides only several functions as Web APIs.
 Please refer to the 'Service' section about the detail of those functions.
 
-Also, this application contains the static contents such as html file, css file and javascript file which built [vuejs-webapp-sample](https://github.com/ybkuroki/vuejs-webapp-sample) project to easily check the behavior of those functions.
+Also, this application contains the static contents such as html file, css file and javascript file which built [vuejs-webapp-sample](https://github.com/SamuelVasconc/vuejs-webapp-sample) project to easily check the behavior of those functions.
 So, you can check this application without starting a web server for front end.
 Please refer to the 'Starting Server' section about checking the behavior of this application.
 
@@ -24,7 +19,7 @@ Perform the following steps:
 1. Download and install [Golang](https://golang.org/).
 1. Get the source code of this repository by the following command.
     ```bash
-    go get -u github.com/ybkuroki/go-webapp-sample
+    go get -u github.com/SamuelVasconc/go-webapp-sample
     ```
 
 ## Starting Server
@@ -59,7 +54,7 @@ There are 2 methods for starting server.
     healthy
     ```
 #### Starting Web Server
-1. Clone [vuejs-webapp-sample](https://github.com/ybkuroki/vuejs-webapp-sample) project and install some tools.
+1. Clone [vuejs-webapp-sample](https://github.com/SamuelVasconc/vuejs-webapp-sample) project and install some tools.
 1. Start by the following command.
     ```bash
     npm run serve
@@ -168,7 +163,7 @@ This sample uses the following libraries.
 |zap|1.19.1|
 
 ## Contribution
-Please read [CONTRIBUTING.md](https://github.com/ybkuroki/go-webapp-sample/blob/master/CONTRIBUTING.md) for proposing new functions, reporting bugs and submitting pull requests before contributing to this repository.
+Please read [CONTRIBUTING.md](https://github.com/SamuelVasconc/go-webapp-sample/blob/master/CONTRIBUTING.md) for proposing new functions, reporting bugs and submitting pull requests before contributing to this repository.
 
 ## License
 The License of this sample is *MIT License*.

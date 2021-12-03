@@ -1,8 +1,8 @@
 package migration
 
 import (
-	"github.com/ybkuroki/go-webapp-sample/container"
-	"github.com/ybkuroki/go-webapp-sample/model"
+	"github.com/SamuelVasconc/go-webapp-sample/container"
+	"github.com/SamuelVasconc/go-webapp-sample/model"
 )
 
 // InitMasterData creates the master data used in this application.

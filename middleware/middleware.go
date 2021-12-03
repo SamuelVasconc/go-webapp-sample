@@ -7,13 +7,13 @@ import (
 	"regexp"
 	"strconv"
 
+	"github.com/SamuelVasconc/go-webapp-sample/config"
+	"github.com/SamuelVasconc/go-webapp-sample/container"
+	mySession "github.com/SamuelVasconc/go-webapp-sample/session"
 	"github.com/gorilla/sessions"
 	"github.com/labstack/echo-contrib/session"
 	"github.com/labstack/echo/v4"
 	"github.com/valyala/fasttemplate"
-	"github.com/ybkuroki/go-webapp-sample/config"
-	"github.com/ybkuroki/go-webapp-sample/container"
-	mySession "github.com/ybkuroki/go-webapp-sample/session"
 	"gopkg.in/boj/redistore.v1"
 )
 

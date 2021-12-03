@@ -1,8 +1,8 @@
 package service
 
 import (
-	"github.com/ybkuroki/go-webapp-sample/container"
-	"github.com/ybkuroki/go-webapp-sample/model"
+	"github.com/SamuelVasconc/go-webapp-sample/container"
+	"github.com/SamuelVasconc/go-webapp-sample/model"
 )
 
 // CategoryService is a service for managing master data such as format and category.

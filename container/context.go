@@ -1,9 +1,9 @@
 package container
 
 import (
-	"github.com/ybkuroki/go-webapp-sample/config"
-	"github.com/ybkuroki/go-webapp-sample/logger"
-	"github.com/ybkuroki/go-webapp-sample/repository"
+	"github.com/SamuelVasconc/go-webapp-sample/config"
+	"github.com/SamuelVasconc/go-webapp-sample/logger"
+	"github.com/SamuelVasconc/go-webapp-sample/repository"
 )
 
 // Container represents a interface for accessing the data which sharing in overall application.

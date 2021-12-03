@@ -6,8 +6,8 @@ import (
 	"errors"
 	"math"
 
-	"github.com/ybkuroki/go-webapp-sample/repository"
-	"github.com/ybkuroki/go-webapp-sample/util"
+	"github.com/SamuelVasconc/go-webapp-sample/repository"
+	"github.com/SamuelVasconc/go-webapp-sample/util"
 	"gorm.io/gorm"
 )
 

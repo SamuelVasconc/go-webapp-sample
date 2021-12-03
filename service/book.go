@@ -3,11 +3,11 @@ package service
 import (
 	"errors"
 
-	"github.com/ybkuroki/go-webapp-sample/container"
-	"github.com/ybkuroki/go-webapp-sample/model"
-	"github.com/ybkuroki/go-webapp-sample/model/dto"
-	"github.com/ybkuroki/go-webapp-sample/repository"
-	"github.com/ybkuroki/go-webapp-sample/util"
+	"github.com/SamuelVasconc/go-webapp-sample/container"
+	"github.com/SamuelVasconc/go-webapp-sample/model"
+	"github.com/SamuelVasconc/go-webapp-sample/model/dto"
+	"github.com/SamuelVasconc/go-webapp-sample/repository"
+	"github.com/SamuelVasconc/go-webapp-sample/util"
 )
 
 // BookService is a service for managing books.
